@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>勁巨，最方便的AI家電公司-走「勁」你的生活，讓「巨」離不再成為束縛</title>
+	<meta name="description" content="讓你隨時隨地都能操作家電，決定機器的運作時間，讓智慧家電幫你解省時間，與AI結合監測任務狀態，讓你隨時能確認任務進度，讓生活更有彈性">
+	<meta name="keywords" content="家電,AI,家用,生活電器,智慧家電">
+	<meta name="author" content="Hung-Che-Lien">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<style>
+		body{
+			margin:0;
+			font-family: "DFKai-sb",serif;
+			background: white;
+		}
+		header{
+			background:silver;
+			display: flex;
+			max-height:50px ;
+		}
+		header h1{
+			font-size: 2vw;
+			color: white;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			line-height: 4em;
+
+		}
+		header h1 img{
+			max-width: 50px;
+		}
+		.container{
+			width: 80%;
+			margin: 0 auto;
+			display: flex;
+			line-height: 3em;
+			align-items: center;
+			justify-content: center;
+		}
+		nav{
+			height:50px;
+			background: silver;
+			line-height: 1.6em;
+		}
+		header ul{
+			text-align: right;
+		}
+		.ulright{
+			padding-left:100px ;
+		}
+		button{
+			float: right;
+  			text-align: right;
+  			display: inline-block;
+		}
+		header ul li{
+			align-items: center;
+			font-size: 2vw;
+			margin:0 5px;
+			display: inline;
+		}
+		header ul li a{
+			text-decoration: none;
+			color:#fff;
+			max-width: 100%;
+		}
+		main{
+		}
+		.maingoodpic{
+			background: cornsilk;
+			margin: 0 auto;
+			width: 60%;
+			height: 600px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		article{
+			width:80%;
+			margin: 0 auto;
+			height: 500px;
+			overflow:hidden;
+		}
+		.goodspic{
+			margin:0 auto;
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+		}
+		.articlegoodpic{
+				margin: 0 auto;
+				width: 49%;
+				height: 600px;
+				overflow:hidden;
+		}
+		aside{
+		}
+		aside img{
+			transform:scale(1,1);
+			transition: all 1s ease-out;
+		}
+		aside img:hover{
+			transform:scale(1.02,1.02);
+		}
+		.asidegoodpic{
+			margin: 0auto;
+			display: flex;
+			flex-wrap: wrap;
+			width: 49%;
+			height: 300px;
+		}
+		.asdpic{
+			width: 100%;
+			max-height: 292.5px;
+			margin-top: 5px;
+			margin-bottom:5px ;
+			margin-right: 5px;
+			box-shadow: 1px 1px 10px 1px;
+		}
+		.asdpic2{
+			width: 100%;
+			min-height:292.5px;
+			max-height: 292.5px;
+			float: right;
+			margin-top: 0px;
+			margin-bottom:5px ;
+			margin-right: 5px;
+			box-shadow: 1px 1px 10px 1px
+		}
+		article img{
+			width:100%;
+			margin: 0 auto;
+			max-height: 300px;
+			transform:scale(1,1);
+			transition: all 1s ease-out;
+		}
+		article img:hover{
+			transform:scale(1.1,1.1);
+		}
+		.circlelogo{
+			width: 100%;
+            height: 100%;
+			margin: 0 auto;
+			position: absolute;
+		}
+		.imggoodpic{
+			width: 100%;
+			max-height: 590px;
+			margin: 5px;
+			margin-left: 2.5px;
+			box-shadow: 1px 1px 10px 1px;
+		}
+		article font {
+				font-size: 3vw;
+				max-height: 300px;
+		}
+		.fontartgood{
+			font-size: 20px;
+			color: black;
+			position:absolute;
+			top:1100px;
+			left:600px;}
+		}
+		article div{
+
+		}
+		article div section{
+			width: 120ox;
+			height: 50px;
+			padding-top: 20px;
+			position: relative;
+		}
+		.section p{
+			color: black;
+			font-size: 1vw;
+			display: flex;
+			text-align:center;
+			margin-top:100px ;
+			position: absolute;
+		}
+		footer{
+			background: #555;
+			color: #fff;
+			text-align: center;
+			margin: 30px;
+			padding: 20px;
+		}
+		@media screen and (max-width: 900px){
+			.deleteheader{
+				display: none;
+			}
+		}
+		@media screen and (max-width: 800px) {
+			header {
+				flex-direction: column;
+			}
+			header h1 {
+				color: white;
+				display: flex;
+				align-items: flex-start;
+				justify-content: center;
+				line-height: 1.5em;
+				font-size: 1.2em;
+				text-align: left; /* Align to the left when screen is small */
+			}
+			header h1 img{
+				max-width: 30px;
+			}
+			header li {
+				margin: 5px 0; /* Reduce the margin */
+			}
+			header li a {
+				font-size: 100%; /* Reduce the font size */
+			}
+			/* Resize text proportionally */
+			header input{
+				align-items: flex-end;
+				line-height: 1.5em;
+				font-size: 1.2em;
+				text-align: right; 
+			}
+			
+			article div {
+				top: 10px;
+				left: 5%;
+			}
+			article div img{
+				height: 200px;
+				margin: 0 auto;
+			}
+			.circle{
+				margin: 0 auto;
+				width: 150px; 
+				height: 150px;
+			}
+				
+        .nav-toggle {
+            display: none; /* Hide the toggle button by default */
+        }
+        @media screen and (max-width: 600px) {
+            .nav-toggle {
+                display: block; /* Display the toggle button when screen size is reduced */
+            }
+        }
+	</style>
+
+</head>
+<body>
+	<header>
+		<h1><img src="Logo-removebg-preview.png">勁巨</h1>
+		<ul class="container">
+			<li>
+				<a href="file:///Applications/MAMP/htdocs/原來我是UIUX高手/AI家電.html" onmouseover="this.style='color:blue;'" onmouseout="this.style='color:white;'">
+					首頁
+				</a>
+			</li>
+
+			<li>
+				<a href="file:///Applications/MAMP/htdocs/原來我是UIUX高手/關於公司.html"class="deleteheader"onmouseover="this.style='color:blue;'" onmouseout="this.style='color:white;'">
+					關於我們
+				</a>
+			</li>
+
+			<li>
+				<a href="file:///Applications/MAMP/htdocs/原來我是UIUX高手/測試.html"  onmouseover="this.style='color:blue;'" onmouseout="this.style='color:white;'">
+					登入/註冊
+				</a>
+			</li>
+
+			<li>
+				<a href="file:///Applications/MAMP/htdocs/原來我是UIUX高手/內容頁.html"class="deleteheader" onmouseover="this.style='color:blue;'" onmouseout="this.style='color:white;'">
+					內容頁
+				</a>
+			</li>
+			<li>
+				<a href="https://www.apple.com/tw/app-store/" onmouseover="this.style='color:blue;'" onmouseout="this.style='color:white;'">
+					APP
+				</a>
+			</li>
+			<li>
+			</li>
+			
+			<div class="ulright">
+				<label for="site-search" style="color: white;font-size: 2vw;text-align: center;">搜尋：</label>
+        		<input type="search" id="site-search" name="q" />
+        		<input type="button" value="search">
+        	</div>
+		</ul>
+	</header>
+	
+
+	<main>
+		<article>
+			<div style="position:relative;">
+				<img src="家電banner.jpg" title="勁巨">
+				<div class="box"style="position:absolute;z-index:2;top:10px;left: 50%;transform: translateX(-50%);">
+    				<font style="text-shadow: 5px 8px 1px rgba(0, 0, 0.3, 0.2)">走「勁」你的生活<br>讓「巨」離不是問題
+    				</font>
+    			</div>
+			</div>
+			<div style="display: flex; justify-content: space-around;">
+       			 <section onclick="window.location.href=''">
+          			<img  class="circlelogo"src="TV.png" title="電視">
+          			<p style="margin-top:100px;padding-left: 15px;">影音通訊</p>
+        		</section>
+        		<section onclick="window.location.href=''">
+         			 <img class="circlelogo"src="空調.png" title="空調" >
+         			 <p style="margin-top:100px;padding-left:15px;">空調商品</p>
+        		</section>
+        		<section onclick="window.location.href=''">
+          			<img class="circlelogo"src="Laundry.png" title="Laundry">
+           			<p style="margin-top:100px;padding-left: 20px;padding-right: 5px;">洗衣機</p>
+        		</section>
+        		<section onclick="window.location.href=''">
+          			<img class="circlelogo"src="掃地機器人.png" title="掃地機器人">
+          			<p style="margin-top:100px;">生活小家電</p>
+        		</section>
+        	</div>
+		</article>
+		<main class="maingoodpic">
+			<article class="articlegoodpic">
+				<img src="冰箱背景.jpeg" class="imggoodpic" >
+				<font class="fontartgood">智慧家電</font>
+			</article>
+			<aside class="asidegoodpic">
+				<img src="冷氣背景.jpeg" class="asdpic">
+				<img src="掃地機器人背景.jpeg" class="asdpic2">
+			</aside>
+		</main>
+
+
+	</main>
+	<footer id ="footer">	
+		Copyright &copy; 企研所碩一 R46121182 連泓喆
+	</footer>
+</body>
+
+</html>

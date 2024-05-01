@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>勁巨，最方便的AI家電公司-走「勁」你的生活，讓「巨」離不再成為束縛</title>
+  <meta name="description" content="讓你隨時隨地都能操作家電，決定機器的運作時間，讓智慧家電幫你解省時間，與AI結合監測任務狀態，讓你隨時能確認任務進度，讓生活更有彈性">
+  <meta name="keywords" content="家電,AI,家用,生活電器,智慧家電">
+  <meta name="author" content="Hung-Che-Lien">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body{
+      margin:0;
+      font-family: "DFKai-sb",serif;
+      background: white;
+    }
+    header{
+      background:silver;
+      display: flex;
+      max-height:50px ;
+    }
+    header h1{
+      font-size: 2vw;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 4em;
+
+    }
+    header h1 img{
+      max-width: 50px;
+    }
+    .container{
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      line-height: 3em;
+      align-items: center;
+      justify-content: center;
+    }
+    nav{
+      height:50px;
+      background: silver;
+      line-height: 1.6em;
+    }
+    header ul{
+      text-align: right;
+    }
+    .ulright{
+      padding-left:100px ;
+    }
+    button{
+      float: right;
+        text-align: right;
+        display: inline-block;
+    }
+    header ul li{
+      align-items: center;
+      font-size: 2vw;
+      margin:0 5px;
+      display: inline;
+    }
+    header ul li a{
+      text-decoration: none;
+      color:#fff;
+      max-width: 100%;
+    }
+    article{
+      width:80%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f0f0f0;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      margin-top: 20px;
+    }
+    article input[type="email"],
+    article input[type="password"] {
+      width: calc(100% - 12px);
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      color: #666;
+    }
+
+    article input[type="submit"] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    article input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+    footer{
+      background: #555;
+      color: #fff;
+      text-align: center;
+      margin: 30px;
+      padding: 20px;
+    }
+    @media screen and (max-width: 900px){
+      .deleteheader{
+        display: none;
+      }
+    }
+    @media screen and (max-width: 800px) {
+      header {
+        flex-direction: column;
+      }
+      header h1 {
+        color: white;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        line-height: 1.5em;
+        font-size: 1.2em;
+        text-align: left; /* Align to the left when screen is small */
+      }
+      header h1 img{
+        max-width: 30px;
+      }
+      header li {
+        margin: 5px 0; /* Reduce the margin */
+      }
+      header li a {
+        font-size: 100%; /* Reduce the font size */
+      }
+      /* Resize text proportionally */
+      header input{
+        align-items: flex-end;
+        line-height: 1.5em;
+        font-size: 1.2em;
+        text-align: right; 
+      }
+      article div {
+        top: 10px;
+        left: 5%;
+      }
+      article div img{
+        height: 200px;
+        max-width:100%;
+        margin: 0 auto;
+      }
+      .circle{
+        margin: 0 auto;
+        width: 150px; 
+        height: 150px;
+      } 
+        .nav-toggle {
+            display: none; /* Hide the toggle button by default */
+        }
+        @media screen and (max-width: 600px) {
+            .nav-toggle {
+                display: block; /* Display the toggle button when screen size is reduced */
+            }
+        }
+  </style>
+
+</head>
+<body>
+  <header>
+    <h1><img src="Logo-removebg-preview.png">勁巨</h1>
+    <ul class="container">
+      <li>
+        <a href="file:///Applications/MAMP/htdocs/原來我是UIUX高手/AI家電.html" onmouseover="this.style='color:blue;'" onmouseout="this.style='color:white;'">
+          首頁
+        </a>
+      </li>
+
+      <li>
+        <a href="file:///Applications/MAMP/htdocs/原來我是UIUX高手/關於公司.html"class="deleteheader"onmouseover="this.style='color:blue;'" onmouseout="this.style='color:white;'">
+          關於我們
+        </a>
+      </li>
+
+      <li>
+        <a href="file:///Applications/MAMP/htdocs/原來我是UIUX高手/測試.html"  onmouseover="this.style='color:blue;'" onmouseout="this.style='color:white;'">
+          登入/註冊
+        </a>
+      </li>
+
+      <li>
+        <a href="file:///Applications/MAMP/htdocs/原來我是UIUX高手/內容頁.html"class="deleteheader" onmouseover="this.style='color:blue;'" onmouseout="this.style='color:white;'">
+          內容頁
+        </a>
+      </li>
+      <li>
+        <a href="https://www.apple.com/tw/app-store/" onmouseover="this.style='color:blue;'" onmouseout="this.style='color:white;'">
+          APP
+        </a>
+      </li>
+      <li>
+      </li>
+      
+      <div class="ulright">
+        <label for="site-search" style="color: white;font-size: 2vw;text-align: center;">搜尋：</label>
+            <input type="search" id="site-search" name="q" />
+            <input type="button" value="search">
+          </div>
+    </ul>
+  </header>
+  
+
+  <main>
+    <article>
+      <h2 style="text-align: center;">會員登入</h2>
+      <form action="/login" method="post">
+        <label for="email">電子郵件：</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">密碼：</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="登入">
+      </form>
+      <div class="register-link" style="margin: 0auto;align-items: center;
+      justify-content: center;">
+        <a href="file:///Applications/MAMP/htdocs/原來我是UIUX高手/會員註冊.html">還沒有帳號？點此註冊</a>
+      </div>
+
+    </article>
+  </main>
+  <footer id ="footer"> 
+    Copyright &copy; 企研所碩一 R46121182 連泓喆
+  </footer>
+</body>
+</html>

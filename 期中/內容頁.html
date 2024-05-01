@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>勁巨，最方便的AI家電公司-走「勁」你的生活，讓「巨」離不再成為束縛</title>
+	<meta name="description" content="讓你隨時隨地都能操作家電，決定機器的運作時間，讓智慧家電幫你解省時間，與AI結合監測任務狀態，讓你隨時能確認任務進度，讓生活更有彈性">
+	<meta name="keywords" content="家電,AI,家用,生活電器,智慧家電">
+	<meta name="author" content="Hung-Che-Lien">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<style>
+		body{
+			margin:0;
+			font-family: "DFKai-sb",serif;
+			background: gray;
+		}
+		header{
+			background:silver;
+			display: flex;
+			max-height:50px ;
+		}
+		header h1{
+			font-size: 2vw;
+			color: white;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			line-height: 4em;
+
+		}
+		header h1 img{
+			max-width: 50px;
+		}
+		.container{
+			width: 80%;
+			margin: 0 auto;
+			display: flex;
+			line-height: 3em;
+			align-items: center;
+			justify-content: center;
+		}
+		nav{
+			height:50px;
+			background: silver;
+			line-height: 1.6em;
+		}
+		header ul{
+			text-align: right;
+		}
+		.ulright{
+			padding-left:100px ;
+		}
+		header button{
+			float: right;
+  			text-align: right;
+  			display: inline-block;
+		}
+		header ul li{
+			align-items: center;
+			font-size: 2vw;
+			margin:0 5px;
+			display: inline;
+		}
+		header ul li a{
+			text-decoration: none;
+			color:#fff;
+			max-width: 100%;
+		}
+		main{
+			background: white;
+			margin: 0 auto;
+			width: 70%;
+			height: 600px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin-top: 40px;
+			border-radius: 10px 10px 10px 10px;
+		}
+		article{
+			margin: 0;
+			width: 40%;
+			height: 600px;
+		}
+		
+		article img{
+			width: 100%;
+			max-height: 590px;
+			margin: 0px;
+			margin-right: 200px;
+		}
+		article font {
+			font-size: 3vw;
+			max-height: 300px;
+		}
+		article div h1{
+			color: white;
+			font-size: 4vw;
+			margin: 0;
+			flex: flex;
+			top: 100px;
+			left:100px;
+			position: absolute;
+		}
+		
+		article div p{
+			color: white;
+			font-size: 2vw;
+			margin: 0;
+			flex: flex;
+			top: 180px;
+			left:100px;
+			position: absolute;
+		}
+		aside{
+			margin: 0auto;
+			display: flex;
+			flex-wrap: wrap;
+			width: 60%;
+		}
+		aside button{
+			margin: 0;
+			flex: flex;
+			top: 500px;
+			left:1000px;
+			position: absolute;
+		}
+		footer{
+			background: #555;
+			color: #fff;
+			text-align: center;
+			margin: 30px;
+			padding: 20px;
+		}
+		@media screen and (max-width: 900px){
+			.deleteheader{
+				display: none;
+			}
+		}
+		@media screen and (max-width: 800px) {
+			header {
+				flex-direction: column;
+			}
+			header h1 {
+				color: white;
+				display: flex;
+				align-items: flex-start;
+				justify-content: center;
+				line-height: 1.5em;
+				font-size: 1.2em;
+				text-align: left; /* Align to the left when screen is small */
+			}
+			header h1 img{
+				max-width: 30px;
+			}
+			header li {
+				margin: 5px 0; /* Reduce the margin */
+			}
+			header li a {
+				font-size: 100%; /* Reduce the font size */
+			}
+			/* Resize text proportionally */
+			header input{
+				align-items: flex-end;
+				line-height: 1.5em;
+				font-size: 1.2em;
+				text-align: right; 
+			}
+			article div {
+				top: 10px;
+				left: 5%;
+			}
+			article div img{
+				height: 200px;
+				max-width:100%;
+				margin: 0 auto;
+			}
+			.circle{
+				margin: 0 auto;
+				width: 150px; 
+				height: 150px;
+			}	
+        .nav-toggle {
+            display: none; /* Hide the toggle button by default */
+        }
+        @media screen and (max-width: 600px) {
+            .nav-toggle {
+                display: block; /* Display the toggle button when screen size is reduced */
+            }
+        }
+	</style>
+
+</head>
+<body>
+	<header>
+		<h1><img src="Logo-removebg-preview.png">勁巨</h1>
+		<ul class="container">
+			<li>
+				<a href="file:///Applications/MAMP/htdocs/原來我是UIUX高手/AI家電.html" onmouseover="this.style='color:blue;'" onmouseout="this.style='color:white;'">
+					首頁
+				</a>
+			</li>
+
+			<li>
+				<a href="file:///Applications/MAMP/htdocs/原來我是UIUX高手/關於公司.html"class="deleteheader"onmouseover="this.style='color:blue;'" onmouseout="this.style='color:white;'">
+					關於我們
+				</a>
+			</li>
+
+			<li>
+				<a href="file:///Applications/MAMP/htdocs/原來我是UIUX高手/測試.html"  onmouseover="this.style='color:blue;'" onmouseout="this.style='color:white;'">
+					登入/註冊
+				</a>
+			</li>
+
+			<li>
+				<a href="file:///Applications/MAMP/htdocs/原來我是UIUX高手/內容頁.html"class="deleteheader" onmouseover="this.style='color:blue;'" onmouseout="this.style='color:white;'">
+					內容頁
+				</a>
+			</li>
+			<li>
+				<a href="https://www.apple.com/tw/app-store/" onmouseover="this.style='color:blue;'" onmouseout="this.style='color:white;'">
+					APP
+				</a>
+			</li>
+			<li>
+			</li>
+			
+			<div class="ulright">
+				<label for="site-search" style="color: white;font-size: 2vw;text-align: center;">搜尋：</label>
+        		<input type="search" id="site-search" name="q" />
+        		<input type="button" value="search">
+        	</div>
+		</ul>
+	</header>
+	
+
+	<main>
+		<article>
+			<img src="冰箱背景.jpeg" >
+		</article>
+		<aside>
+			<h1 style="padding-left: 40px;font-size: 3vw;">勁巨I代智能冰箱--太空灰</h1>
+			<section style="margin:0 auto;width: 90%;background: silver;border-radius: 10px 10px 10px 10px;height: 50px;margin-bottom: 500px">
+				<font style="font-size: 3vw;display: flex;text-align: center;padding-left: 15px;color: red;">$45,000&ensp;
+					<s style="font-size:1.5vw;color:black;padding-top:13px">$60,000</s>
+				</font>
+				<p style="margin-top:40px;font-size:1.5vw">
+					・新鮮急凍結/-3℃微凍結<br>
+					・新1級能源效率/ECONAVI智慧節能<br>
+					・全機1年保，主要零件3年保，壓縮機5年保
+				</p>
+				<div style="padding-bottom:500px;left:900px;">數量：
+					<select name="quant">
+    					<option>請選擇數量</option>
+    					<option>1</option>
+    					<option>2</option>
+    					<option>3</option>
+    					<option>4</option>
+    					<option>5</option>
+    					<option>6</option>
+    					<option>6個以上</option>
+					</select>
+				</div>
+			</section>
+			
+			<button onclick="addToCart()">加入購物車</button>
+			<button style="top: 500px;left:1100px;">立即購買</button>
+			<script>
+				function addToCart() {
+       				// 在這裡實現加入購物車的功能
+        			alert("已成功加入購物車！");
+    			}
+			</script>
+		</aside>
+	</main>
+	<footer id ="footer">	
+		Copyright &copy; 企研所碩一 R46121182 連泓喆
+	</footer>
+	
+</body>
+
+</html>
